@@ -1,0 +1,57 @@
+header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header img {
+    float: left;
+}
+
+header h1, header h2 {
+    text-align: center;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+.fondo-con-texto {
+    background-image: url('ruta/a/la/imagen.jpg');
+    background-size: cover;
+    height: 500px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo-con-texto h1 {
+    color: white;  
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor img {
+    width: 100%;
+}
+
+.contenedor p {
+    text-align: center;
+}
+
