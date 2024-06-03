@@ -1,57 +1,313 @@
+body {
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-gap: 20px;
+}
+
 header {
-    background-color: lightblue;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+  padding: 20px;
+  background-color: #f8f8f8;
+  grid-column: 1 / -1; /* Ocupa todas las columnas */
+}
+
+
+.icon img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+  float: left;
 }
 
 header img {
-    float: left;
+  max-width: 30px;
+  height: auto;
+  margin-right: 20px;
+  float: left;
 }
 
-header h1, header h2 {
-    text-align: center;
+header h1 {
+  font-family: 'Italic';
+  font-size: 3em;
+  background: linear-gradient(to right, #00ccff, #d60bdd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header h2 {
+  font-family: 'Dancing string';
+  font-size: 1.5em;
+  color: #999;
+  text-align: center;
+  margin-top: 10px;
 }
 
 nav {
-    float: right;
+  float: right;
+  margin-right: 5px;
 }
 
-nav a {
-    margin: 0 10px;
+form {
+  /* Establece el ancho del formulario */
+  width: 300px;
+  margin:  10;
 }
 
-.fondo-con-texto {
-    background-image: url('ruta/a/la/imagen.jpg');
-    background-size: cover;
-    height: 500px;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.redes-sociales {
+  /* Posiciona la lista de redes sociales debajo del nav */
+  clear: both;
+  /* Establece el ancho de la lista */
+  width: 200px;
+  /* Centra la lista horizontalmente */
+  margin: 0 auto;
+  /* Añade un padding para separar la lista del borde */
+  padding: 20px;
 }
 
-.fondo-con-texto h1 {
-    color: white;  
+.redes-sociales li {
+  /* Establece la lista en horizontal */
+  display: inline-block;}
+
+/*Section con fondo*/
+.hero {
+  position: relative;
+  height: 300px; 
+  background-image: url('image.png');
+  background-size: 100% auto; /* Ajustar al alto y mantener proporción de aspecto original */
+  background-position: top center; /* Posición vertical en la parte superior y posición horizontal en el centro */
 }
 
+
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  color: #00ffea;
+}
+.hero-content h1 {
+  font-size: 2em;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); 
+}
+
+/* Estilos para el main */
 main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 
-.contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#tarjeta {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
 
-.contenedor img {
-    width: 100%;
+.tarjeta-item {
+  width: 150px;
+  height: 200px;
 }
 
-.contenedor p {
-    text-align: center;
+.producto-imagen {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
+.producto-info {
+  margin-top: 20px;
+}
+.grid-item {
+  border: 1px solid silver;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  background-color: #f8f8f8;
+  grid-column: 1 / -1; /* Ocupa todas las columnas */
+}
+
+footer p {
+  margin: 0;
+  color: #777;
+}
+
+footer .copy {
+  text-align: right;
+}
+
+/* Estilos para la paginación */
+footer .paginacion {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .paginacion button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+footer .paginacion button:hover {
+  background-color: #0056b3;
+}
+
+footer .paginacion span {
+  font-weight: bold;
+  color: #333;
+  margin: 0 5px;
+}
+
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+#menu-desplegable {
+  width: 10; 
+}
+
+
+/* Estilos para el formulario emergente */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 100; 
+  max-width: 100%; 
+  max-height: 90%; 
+  overflow: auto; 
+}
+
+
+.popup.show {
+  display: block;
+}
+
+.popup h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.popup form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.popup input[type="text"],
+.popup textarea,
+.popup input[type="number"],
+.popup input[type="url"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.popup button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Estilos para el aviso emergente */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 100; 
+}
+
+.popup.show {
+  display: block;
+}
+
+.popup h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.popup p {
+  margin-bottom: 10px;
+}
+
+.popup ol {
+  margin-left: 20px;
+}
+
+.popup li {
+  margin-bottom: 5px;
+}
+
+.popup .acciones {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.popup button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #0056b3;
+}
