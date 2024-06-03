@@ -1,73 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto eCommerce</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Gamer Store</title>
+    <link rel="stylesheet" href="estilo.css">
+    
 </head>
 <body>
     <header>
-        <img src="ruta/al/logo.jpg" alt="Logo de la empresa">
+      <div class="icon">
+        <img src="icon1.png" alt="Store icon">
+      </div>
+      
         <div>
-            <h1>Proyecto eCommerce</h1>
-            <h2>Subtítulo de la página</h2>
+            <h1>TECH Store Gen 2</h1>
+            <h2>TECHnology within Reach of your Pocket</h2>
         </div>
         <nav>
-            <form action="/ruta/a/la/pagina/de/busqueda" method="get">
-                <input type="text" name="q" placeholder="Buscar...">
+          <div class="busqueda">
+            <form id="form-busqueda">
+                <input type="text" id="busqueda-producto" placeholder="Buscar producto..." required>
                 <input type="submit" value="Buscar">
             </form>
-            <div>
-                <a href="https://www.facebook.com/tuempresa">
-                    <img src="ruta/al/icono/facebook.png" alt="Facebook">
-                </a>
-                <a href="https://www.twitter.com/tuempresa">
-                    <img src="ruta/al/icono/twitter.png" alt="Twitter">
-                </a>
-                <a href="https://www.instagram.com/tuempresa">
-                    <img src="ruta/al/icono/instagram.png" alt="Instagram">
-                </a>
-            </div>
-        </nav>
+        </div>
+        <ul class="redes-sociales">
+          <li><a href="https://www.facebook.com/tuempresa"><img src="facebook_icon.png" alt="Facebook"></a></li>
+          <li><a href="https://www.twitter.com/tuempresa"><img src="twitter_icon.png" alt="Twitter"></a></li>
+          <li><a href="https://www.instagram.com/tuempresa"><img src="instagram_icon.png" alt="Instagram"></a></li>
+      </ul>
+      <button id="boton-recargar">Ir al inicio</button>
+      </nav>
     </header>
-    <section class="fondo-con-texto">
-        <h1>Texto flotante</h1>
-    </section>
-    
+
+    <section class="hero">
+      <div class="hero-content">
+          <h1>Welcome to the Jungle! lml</h1>
+      </div>
+  </section>
+  
+
     <main>
-        <div class="contenedor">
-            <img src="ruta/a/la/imagen1.jpg" alt="Imagen 1">
-            <p>Texto para la imagen 1</p>
-        </div>
-        <div class="contenedor">
-            <img src="ruta/a/la/imagen2.jpg" alt="Imagen 2">
-            <p>Texto para la imagen 2</p>
-        </div>
-        <div class="contenedor">
-            <img src="ruta/a/la/imagen3.jpg" alt="Imagen 3">
-            <p>Texto para la imagen 3</p>
-        </div>
-        <div class="contenedor">
-            <img src="ruta/a/la/imagen4.jpg" alt="Imagen 4">
-            <p>Texto para la imagen 4</p>
-        </div>
-        <div class="contenedor">
-            <img src="ruta/a/la/imagen5.jpg" alt="Imagen 5">
-            <p>Texto para la imagen 5</p>
-        </div>
-        <!-- 15 contenedores en total -->
-    </main>
-    
+      <section id="tarjeta"></section>
+  </main>
+
     <footer>
-        <div class="info">
-            <p>Información 1</p>
-            <p>Información 2</p>
-            <p>Información 3</p>
+      <div class="registro">
+        <button id="boton_registro">Registro P</button>
+        <button id="boton_info">Información</button>
+      </div>
+      
+      <div class="paginacion">
+        <button id="boton_prev">prev «</button>
+        <span id="pagina_actual">1</span>
+        <button id="boton_next">» Next</button>
+      </div>
+      
+        <div class="copy">
+          <p>&copy; 2024 All rights reserved</p>
         </div>
-        <div class="paginacion">
-            <a href="#">«</a>
-            <span>1</span>
+    </footer>
+
+    
+  
+    <div class="popup" id="formulario">
+      <h3>Registrar Producto</h3>
+      <form>
+        <label for="nombre">Nombre del Producto:</label>
+        <input type="text" id="nombre" required>
+  
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" rows="4" required></textarea>
+  
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" step="0.01" required>
+  
+        <label for="imagen">URL de la Imagen:</label>
+        <input type="url" id="imagen" required>
+  
+        <button type="button" onclick="limpiarCampos()">Limpiar Campos</button>
+        <button type="submit">Aceptar</button>
+      </form>
+    </div>
+
+    <div class="popup" id="aviso_info">
+      <h3>Aviso Importante</h3>
+      <p>Bienvenido a Gamer Tech Store, tu tienda de productos gaming y de tecnología favorita.</p>
+      <p>Para registrar un producto siga las indicaciones:</p>
+      <ol>
+        <li>Presione el botón registrar en la página.</li>
+        <li>Diligencie los campos obligatorios solicitados.</li>
+        <li>Si desea corregir puede borrar los campos.</li>
+        <li>Para guardar presione aceptar.</li>
+      </ol>
+      <div class="acciones">
+        <button id="boton_regresar">Regresar</button>
+        <button id="boton_Inicio">Inicio</button>
+      </div>
+    </div>
+
+    <script src="script.js" ></script> 
+  </body>
+</html>
+
             <a href="#">»</a>
         </div>
     </footer>
