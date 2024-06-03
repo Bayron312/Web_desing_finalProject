@@ -1,0 +1,324 @@
+[
+    {
+      "id_producto": 1,
+      "nombre": "PlayStation 4",
+      "precio": 199,
+      "descripcion": "Consola de octava generación de Sony",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps4-product-thumbnail-01-en-14sep21?$facebook$"
+    },
+    {
+      "id_producto": 2,
+      "nombre": "Xbox One",
+      "precio": 299,
+      "descripcion": "Consola de octava generación de Microsoft",
+      "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2013/05/225410-especificaciones-xbox-one-asi-es-nueva-consola.png?tf=3840x"
+    },
+    {
+      "id_producto": 3,
+      "nombre": "Nintendo Switch",
+      "precio": 299,
+      "descripcion": "Consola híbrida de Nintendo",
+      "image": "https://www.nintendo.com/eu/media/images/10_share_images/support_9/H2x1_NSwitch_support_no_logo.jpg"
+    },
+    {
+      "id_producto": 4,
+      "nombre": "PlayStation 5",
+      "precio": 499,
+      "descripcion": "Consola de novena generación de Sony",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$"
+    },
+    {
+      "id_producto": 5,
+      "nombre": "Xbox Series X",
+      "precio": 499,
+      "descripcion": "Consola de novena generación de Microsoft",
+      "image": "https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png"
+    },
+    {
+      "id_producto": 6,
+      "nombre": "Nintendo Switch Lite",
+      "precio": 199,
+      "descripcion": "Versión portátil de la Nintendo Switch",
+      "image": "https://assets.nintendo.com/image/upload/f_auto/q_auto/c_fill,w_300/ncom/en_US/switch/lite/dedicated-to-handheld"
+    },
+    {
+      "id_producto": 7,
+      "nombre": "PlayStation 4 Pro",
+      "precio": 399,
+      "descripcion": "Versión mejorada de la PlayStation 4",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id_producto": 8,
+      "nombre": "Xbox One X",
+      "precio": 399,
+      "descripcion": "Versión mejorada de la Xbox One",
+      "image": "https://i.blogs.es/d2a441/xboxonex/1366_2000.jpg"
+    },
+    {
+      "id_producto": 9,
+      "nombre": "Nintendo 3DS",
+      "precio": 199,
+      "descripcion": "Consola portátil de Nintendo con capacidad 3D",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id_producto": 10,
+      "nombre": "PlayStation Vita",
+      "precio": 199,
+      "descripcion": "Consola portátil de Sony",
+      "image":"data:image/jpeg;base64,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"
+    },
+    {
+      "id_producto": 11,
+      "nombre": "Xbox Series S",
+      "precio": 299,
+      "descripcion": "Versión digital de la Xbox Series X",
+      "image":"https://assets.xboxservices.com/assets/0b/28/0b2854b9-a7e7-47dd-b4f8-a371567854b2.png?n=Xbox-Series-S_Buy-Box_0_01_829x799.png"
+    },
+    {
+      "id_producto": 12,
+      "nombre": "PlayStation 5 Digital Edition",
+      "precio": 399,
+      "descripcion": "Versión digital de la PlayStation 5",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjnIwY2c_pLXybmoSDikwCF6hehjs0xb6UzQ&s"
+    },
+    {
+      "id_producto": 13,
+      "nombre": "Nintendo 2DS",
+      "precio": 129,
+      "descripcion": "Versión de la Nintendo 3DS sin capacidad 3D",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQau1Z8AtCpYW1ylnnWqe660fjno8V8nP4lyw&s"
+    },
+    {
+      "id_producto": 14,
+      "nombre": "PlayStation 4 Slim",
+      "precio": 299,
+      "descripcion": "Versión delgada de la PlayStation 4",
+      "image":"https://i5.walmartimages.com/seo/Sony-PlayStation-4-Slim-Console-500GB-Jet-Black-PS4_bbf3a9e9-7cb7-4441-b815-9dc49af297b4.97255ca1e8039e220d13250c1342ca0b.jpeg"
+    },
+    {
+      "id_producto": 15,
+      "nombre": "Xbox One S",
+      "precio": 299,
+      "descripcion": "Versión delgada de la Xbox One",
+      "image":"https://exitocol.vtexassets.com/arquivos/ids/21273489/microsoft-xbox-one-s-paquete-de-dos-controladores-consola-de-juegos-4k-hdr-1tb-hdd-robot-white-1000959882.jpg?v=638421400961670000"
+    },
+    {
+      "id_producto": 16,
+      "nombre": "Huawei Nova 11",
+      "precio": 499,
+      "descripcion": "Teléfono inteligente de la gigante asiática Huawei",
+      "image":"https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova-11i/images/hero/huawei-nova-11i.jpg"
+    },
+    {
+      "id_producto": 17,
+      "nombre": "Samsung Galaxy S21",
+      "precio": 799,
+      "descripcion": "Teléfono inteligente de la serie Galaxy de Samsung",
+      "image":"https://tienda.movistar.com.co/media/catalog/product/cache/ebd1de6550e0d0b8d8c505e2a09b56c4/s/2/s21fenegro01.jpg"
+    },
+    {
+      "id_producto": 18,
+      "nombre": "iPhone 13",
+      "precio": 699,
+      "descripcion": "Teléfono inteligente de la serie iPhone de Apple",
+      "image":"https://www.apple.com/newsroom/images/product/iphone/geo/Apple_iphone13_hero_geo_09142021_inline.jpg.large.jpg"
+    },
+    {
+        "id_producto": 19,
+        "nombre": "Google Pixel 6",
+        "precio": 599,
+        "descripcion": "Teléfono inteligente de la serie Pixel de Google",
+        "image":"https://m.media-amazon.com/images/I/71QQZr2pNSL.jpg"
+      },
+      {
+        "id_producto": 20,
+        "nombre": "OnePlus 9",
+        "precio": 729,
+        "descripcion": "Teléfono inteligente de la serie OnePlus de OnePlus",
+        "image":"https://oasis.opstatics.com/content/dam/oasis/page/2021/9-series/spec-image/9/Arcticsky_2080a_euna.png"
+      },
+      {
+        "id_producto": 21,
+        "nombre": "Xiaomi Mi 11",
+        "precio": 749,
+        "descripcion": "Teléfono inteligente de la serie Mi de Xiaomi",
+        "image":""
+      },
+      {
+        "id_producto": 22,
+        "nombre": "Sony Xperia 5 III",
+        "precio": 999,
+        "descripcion": "Teléfono inteligente de la serie Xperia de Sony"
+      },
+      {
+        "id_producto": 23,
+        "nombre": "LG Velvet",
+        "precio": 599,
+        "descripcion": "Teléfono inteligente de la serie Velvet de LG"
+      },
+      {
+        "id_producto": 24,
+        "nombre": "Motorola Edge Plus",
+        "precio": 999,
+        "descripcion": "Teléfono inteligente de la serie Edge de Motorola"
+      },
+      {
+        "id_producto": 25,
+        "nombre": "Nokia 8.3",
+        "precio": 699,
+        "descripcion": "Teléfono inteligente de la serie 8 de Nokia"
+      },
+      {
+        "id_producto": 26,
+        "nombre": "Asus ROG Phone 5",
+        "precio": 999,
+        "descripcion": "Teléfono inteligente de la serie ROG de Asus"
+      },
+      {
+        "id_producto": 27,
+        "nombre": "Oppo Find X3 Pro",
+        "precio": 1099,
+        "descripcion": "Teléfono inteligente de la serie Find de Oppo"
+      },
+      {
+        "id_producto": 28,
+        "nombre": "Realme GT",
+        "precio": 449,
+        "descripcion": "Teléfono inteligente de la serie GT de Realme"
+      },
+      {
+        "id_producto": 29,
+        "nombre": "ZTE Axon 30 Ultra",
+        "precio": 749,
+        "descripcion": "Teléfono inteligente de la serie Axon de ZTE"
+      },
+      {
+        "id_producto": 30,
+        "nombre": "Vivo X60 Pro+",
+        "precio": 799,
+        "descripcion": "Teléfono inteligente de la serie X de Vivo"
+      },
+      {
+        "id_producto": 31,
+        "nombre": "Asus Gaming Notebook",
+        "precio": 1499,
+        "descripcion": "Laptop gaming que emplea la última generación de procesadores AMD con gran capacidad gráfica y de procesamiento"
+      },
+      {
+        "id_producto": 32,
+        "nombre": "Dell XPS 15",
+        "precio": 1399,
+        "descripcion": "Laptop de alto rendimiento con pantalla InfinityEdge"
+      },
+      {
+        "id_producto": 33,
+        "nombre": "HP Spectre x360",
+        "precio": 1299,
+        "descripcion": "Laptop convertible con diseño elegante y batería de larga duración"
+      },
+      {
+        "id_producto": 34,
+        "nombre": "Lenovo ThinkPad X1 Carbon",
+        "precio": 1499,
+        "descripcion": "Laptop ultraligera con robustas características de seguridad"
+      },
+      {
+        "id_producto": 35,
+        "nombre": "Microsoft Surface Laptop 4",
+        "precio": 999,
+        "descripcion": "Laptop versátil con excelente pantalla táctil"
+      },
+      {
+        "id_producto": 36,
+        "nombre": "Apple MacBook Pro",
+        "precio": 2399,
+        "descripcion": "Laptop premium con el potente chip M1 Pro/Max de Apple"
+      },
+      {
+        "id_producto": 37,
+        "nombre": "Acer Predator Helios 300",
+        "precio": 1199,
+        "descripcion": "Laptop gaming con excelente relación calidad-precio"
+      },
+      {
+        "id_producto": 38,
+        "nombre": "Razer Blade 15",
+        "precio": 1699,
+        "descripcion": "Laptop gaming delgada y potente con pantalla de alta frecuencia de actualización"
+      },
+      {
+        "id_producto": 39,
+        "nombre": "Alienware m15 R4",
+        "precio": 2099,
+        "descripcion": "Laptop gaming con potentes gráficos y sistema de enfriamiento eficiente"
+      },
+      {
+        "id_producto": 40,
+        "nombre": "Asus ROG Zephyrus G14",
+        "precio": 1449,
+        "descripcion": "Laptop gaming compacta con impresionante duración de batería"
+      },
+      {
+        "id_producto": 41,
+        "nombre": "HP Elite Dragonfly",
+        "precio": 1499,
+        "descripcion": "Laptop empresarial convertible con diseño elegante"
+      },
+      {
+        "id_producto": 42,
+        "nombre": "Dell Latitude 9420",
+        "precio": 1649,
+        "descripcion": "Laptop empresarial con robustas características de seguridad"
+      },
+      {
+        "id_producto": 43,
+        "nombre": "Lenovo Yoga 9i",
+        "precio": 1349,
+        "descripcion": "Laptop convertible con excelente rendimiento y duración de batería"
+      },
+      {
+        "id_producto": 44,
+        "nombre": "Microsoft Surface Pro 8",
+        "precio": 1099,
+        "descripcion": "Tablet 2 en 1 con teclado desmontable y excelente pantalla"
+      },
+      {
+        "id_producto": 45,
+        "nombre": "Apple MacBook Air",
+        "precio": 999,
+        "descripcion": "Laptop ligera y silenciosa con el potente chip M1 de Apple"
+      },
+      {
+        "id_producto": 46,
+        "nombre": "Hisense Uled 4k 65\"",
+        "precio": 1499,
+        "descripcion": "Smart TV de resolución ultra HD para el gaming, su nitidez y perfección lo hacen la mejor opción"
+      },
+      {
+        "id_producto": 47,
+        "nombre": "Samsung QLED 4K 75\"",
+        "precio": 2499,
+        "descripcion": "Smart TV con tecnología Quantum Dot para una gama de colores más amplia"
+      },
+      {
+        "id_producto": 48,
+        "nombre": "LG OLED 4K 55\"",
+        "precio": 1599,
+        "descripcion": "Smart TV con tecnología OLED para negros perfectos y colores vibrantes"
+      },
+      {
+        "id_producto": 49,
+        "nombre": "Sony Bravia XR 4K 65\"",
+        "precio": 1999,
+        "descripcion": "Smart TV con procesador cognitivo XR para un procesamiento de imagen superior"
+      },
+      {
+        "id_producto": 50,
+        "nombre": "TCL 6-Series 4K 65\"",
+        "precio": 1299,
+        "descripcion": "Smart TV con tecnología Mini-LED para un mejor contraste y brillo"
+      }
+    ]
+
